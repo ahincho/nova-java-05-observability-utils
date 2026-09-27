@@ -48,7 +48,7 @@ authenticated with a token that has `read:packages`.
 ```kotlin
 repositories {
     maven {
-        url = uri("https://maven.pkg.github.com/ahincho/nova-java-observability-utils")
+        url = uri("https://maven.pkg.github.com/ahincho/nova-java-05-observability-utils")
         credentials {
             username = providers.gradleProperty("gpr.user").orNull ?: System.getenv("GITHUB_ACTOR")
             password = providers.gradleProperty("gpr.key").orNull ?: System.getenv("GITHUB_TOKEN")
@@ -67,7 +67,7 @@ Most applications never call this directly. Add the starter for your
 stack and it supplies a `GoldenSignalsRecorder`, wires the servlet filter
 and exposes the metrics:
 
-- [nova-java-observability-spring-boot-starter](https://github.com/ahincho/nova-java-observability-spring-boot-starter)
+- [nova-java-observability-spring-boot-starter](https://github.com/ahincho/nova-java-09-observability-spring-boot-starter)
 
 Then annotate anything worth measuring beyond the HTTP layer:
 
@@ -80,7 +80,7 @@ public Invoice settle(Order order) { ... }
 ## Background
 
 The decision to standardise on the Four Golden Signals is recorded in
-[ADR-014](https://github.com/ahincho/nova-docs/blob/main/adrs/shared/ADR-014-observabilidad-four-golden-signals.md).
+[ADR-014](https://github.com/ahincho/nova-shared-01-docs/blob/main/adrs/shared/ADR-014-observabilidad-four-golden-signals.md).
 
 ## Requirements
 
