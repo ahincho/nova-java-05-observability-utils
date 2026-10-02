@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/ahincho/nova-java-05-observability-utils/compare/v1.0.2...v1.0.3) (2026-10-02)
+
+
+### Bug Fixes
+
+* **deps:** pin the patched versions the OWASP gate now reports ([23dbc4d](https://github.com/ahincho/nova-java-05-observability-utils/commit/23dbc4d23d9a7db11b758ec2e499483428bb847d))
+
 ## [1.0.2](https://github.com/ahincho/nova-java-05-observability-utils/compare/v1.0.1...v1.0.2) (2026-09-27)
 
 
